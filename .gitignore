@@ -14,3 +14,5 @@ release.properties
 .idea/
 *.iml
 *.log
+*.ipr
+*.iws

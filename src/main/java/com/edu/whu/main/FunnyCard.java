@@ -15,7 +15,6 @@ public class FunnyCard {
   public static void main(String[] args) {
     YamlReader.prepare(args[0]);
     ArrayList<String> hosts = YamlReader.getHosts();
-    hosts.forEach(LOG::info);
     //创建服务线程
     ThreadPoolService.init(YamlReader.getNThread());
     LOG.info("Thread Pool size: " + YamlReader.getNThread());
