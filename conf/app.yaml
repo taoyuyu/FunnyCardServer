@@ -1,0 +1,8 @@
+port: 7682
+thread: 16
+hosts:
+# - 'iss.whu.edu.cn'
+# - 'ten1:7681'
+# - 'ten1:7683'
+
+random: false
