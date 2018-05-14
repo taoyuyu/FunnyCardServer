@@ -21,7 +21,7 @@ import org.apache.log4j.Logger;
 public class ChatActionHandler extends ActionHandler {
 
   private static Logger LOG = Logger.getLogger(ChatActionHandler.class);
-  private int BYTE_BUFFER_SIZE = 32;
+  private int BYTE_BUFFER_SIZE = 256;
   private Charset charset = Charsets.UTF_8;
   private CharsetDecoder decoder = charset.newDecoder();
 
