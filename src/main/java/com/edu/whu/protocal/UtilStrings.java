@@ -24,4 +24,8 @@ public class UtilStrings {
   public static String SEND_MESSAGE = "short_message";
   public static String IDENTIFY = "identify";
   public static String CLOSE_CONNECTION = "close_connection";
+
+  //json
+  public static String STATUS_CODE = "requestStatusCode";
+  public static String PLAYER_ID = "playerId";
 }
